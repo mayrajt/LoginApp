@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/numeros"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:weightSum="1">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,39 +43,36 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight=".3">
+        android:layout_weight=".3"
+        android:gravity="center"
+        >
 
         <Button
             android:id="@+id/btnIngresa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginLeft="12dp"
             android:background="@color/morado5"
             android:padding="10dp"
             android:text="@string/btn_ingresar"
             android:textColor="@color/blanco"
             android:textSize="16sp"
             android:textStyle="bold"
-
-
+            android:layout_margin="20dp"
             />
 
         <Button
             android:id="@+id/btnRegistra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="12dp"
+            android:layout_toEndOf="@id/btnIngresa"
+            android:layout_toRightOf="@id/btnIngresa"
             android:background="@color/morado5"
             android:padding="10dp"
             android:text="@string/btn_registrar"
             android:textColor="@color/blanco"
             android:textSize="16sp"
             android:textStyle="bold"
-
-
+            android:layout_margin="20dp"
             />
     </RelativeLayout>
 

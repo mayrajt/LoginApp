@@ -5,20 +5,22 @@
     android:background="@color/rosa1"
     android:orientation="vertical"
     android:weightSum="1"
+
     tools:context="com.mayrajaramillo.loginapp.Form">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:fillViewport="true"
         android:scrollbarStyle="outsideInset"
+        android:layout_weight=".85"
         android:scrollbars="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:weightSum=".9">
+            >
 
             <EditText
                 android:id="@+id/etNom"
@@ -77,8 +79,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight=".1"
+        android:layout_height="0dp"
+        android:layout_weight=".15"
         android:orientation="vertical">
 
         <Button

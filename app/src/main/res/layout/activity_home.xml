@@ -4,13 +4,15 @@
     android:layout_height="match_parent"
     tools:context="com.mayrajaramillo.loginapp.Home"
     android:orientation="vertical"
-    android:background="@color/morado2">
+    android:background="@color/morado2"
+    android:weightSum=".9">
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="@string/nombre"
     android:textSize="28sp"
     android:gravity="center"
+    android:layout_weight=".1"
     android:textStyle="bold"
     />
     <TextView
@@ -20,6 +22,7 @@
         android:textSize="20sp"
         android:gravity="center"
         android:textColor="@color/rosa9"
+        android:layout_weight=".1"
         />
     <TextView
         android:layout_width="match_parent"
@@ -28,6 +31,7 @@
         android:textSize="28sp"
         android:gravity="center"
         android:textStyle="bold"
+        android:layout_weight=".1"
         />
     <TextView
         android:id="@+id/tvApe"
@@ -36,6 +40,7 @@
         android:textSize="20sp"
         android:textColor="@color/rosa9"
         android:gravity="center"
+        android:layout_weight=".1"
         />
 
     <TextView
@@ -45,6 +50,7 @@
         android:textSize="28sp"
         android:gravity="center"
         android:textStyle="bold"
+        android:layout_weight=".1"
         />
     <TextView
         android:id="@+id/tvTel"
@@ -53,6 +59,7 @@
         android:textSize="20sp"
         android:textColor="@color/rosa9"
         android:gravity="center"
+        android:layout_weight=".1"
         />
     <TextView
         android:layout_width="match_parent"
@@ -61,6 +68,7 @@
         android:textSize="28sp"
         android:gravity="center"
         android:textStyle="bold"
+        android:layout_weight=".1"
         />
     <TextView
         android:id="@+id/tvEmail"
@@ -68,5 +76,6 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:gravity="center"
-        android:textColor="@color/rosa9"/>
+        android:textColor="@color/rosa9"
+        android:layout_weight=".1"/>
 </LinearLayout>
